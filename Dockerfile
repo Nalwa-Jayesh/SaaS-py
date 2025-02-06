@@ -5,7 +5,7 @@ RUN python -m venv /opt/venv
 
 ENV PATH=/opt/venv/bin:$PATH
 
-RUN pip install --upgrage pip
+RUN pip install --upgrade pip
 
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
