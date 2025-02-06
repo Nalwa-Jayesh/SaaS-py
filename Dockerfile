@@ -1,7 +1,7 @@
 ARG PYTHON_VERSION=3.12-slim-bullseye
 FROM python:${PYTHON_VERSION}
 
-RUN python -m /opt/venv
+RUN python -m venv /opt/venv
 
 ENV PATH=/opt/venv/bin:$PATH
 
